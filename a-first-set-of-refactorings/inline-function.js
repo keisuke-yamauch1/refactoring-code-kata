@@ -9,7 +9,7 @@ function moreThanFiveLateDeliveries(driver) {
 // =====================================================================================================================
 
 function getRating1(driver) {
-  return (driver.numberOfLateDeliveries > 5) > 2 : 1;
+  return (driver.numberOfLateDeliveries > 5) ? 2 : 1;
 }
 
 // ------------
